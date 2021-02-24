@@ -149,7 +149,7 @@ $(document).ready(function() {
 
 			}
 		}
-	}).addTo(map);
+	});
 
 	var post_box_addr_street = new L.OverPassLayer({
 		minzoom: 12,
